@@ -298,12 +298,6 @@ msgstr "{0} créditos"
 msgid "{0} days"
 msgstr "{0} días"
 
-#. js-lingui-id: stCODw
-#. placeholder {0}: appObject.fields.length
-#: src/modules/settings/applications/hooks/useComputeObjectAndFieldsContentForApplication.ts
-msgid "{0} fields"
-msgstr "{0} campos"
-
 #. js-lingui-id: l8kqMU
 #. placeholder {0}: loadBalanceObjectMetadataItem.labelPlural
 #: src/modules/workflow/workflow-steps/workflow-actions/pick-record-action/components/WorkflowEditActionPickRecord.tsx
@@ -316,12 +310,6 @@ msgstr "{0} no tienen relación con {loadBalancePoolObjectLabel}. Elige un objet
 #: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 msgid "{0} in the list, skipping {1}"
 msgstr "{0} en la lista, se omitirán {1}"
-
-#. js-lingui-id: T8aKxO
-#. placeholder {0}: layout.name
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "{0} layout"
-msgstr "Diseño {0}"
 
 #. js-lingui-id: Zo6POu
 #. placeholder {0}: recordPageLayoutObject.labelPlural
@@ -402,12 +390,6 @@ msgstr "{0} utilizados"
 #: src/modules/settings/billing/components/SettingsBillingLimitsTable.tsx
 msgid "{0} used by {1}"
 msgstr "{0} utilizado por {1}"
-
-#. js-lingui-id: izNf/z
-#. placeholder {0}: view.name
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "{0} view"
-msgstr "Vista {0}"
 
 #. js-lingui-id: /ZFL82
 #. placeholder {0}: widgets.length
@@ -582,11 +564,6 @@ msgstr "{failedCount, plural, one {# espacio de trabajo con error} other {# espa
 msgid "{fieldCount} fields on {recordLabel}"
 msgstr "{fieldCount} campos en {recordLabel}"
 
-#. js-lingui-id: fO/Qa9
-#: src/modules/settings/applications/hooks/useComputeObjectAndFieldsContentForApplication.ts
-msgid "{fieldsCount} fields"
-msgstr "{fieldsCount} campos"
-
 #. js-lingui-id: /9/Y5z
 #: src/modules/spreadsheet-import/steps/components/UploadStep/components/DropZone.tsx
 msgid "{fileName} upload rejected"
@@ -606,11 +583,6 @@ msgstr "{formattedCreatedRecordsProgress} de {formattedRecordsToImportCount} reg
 #: src/modules/ai/components/internal/AiChatContextUsageButton.tsx
 msgid "{formattedPercentage}% used, {formattedConversationSize} of {formattedContextWindow} tokens"
 msgstr "{formattedPercentage}% utilizado, {formattedConversationSize} de {formattedContextWindow} tokens"
-
-#. js-lingui-id: iokIra
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "{formattedType} of {objectLabel}"
-msgstr "{formattedType} de {objectLabel}"
 
 #. js-lingui-id: NHstiz
 #: src/modules/onboarding/components/free-credits/OnboardingFreeCreditsProgress.tsx
@@ -708,11 +680,6 @@ msgstr "{label} (predeterminado)"
 #: src/modules/ai/utils/getAiModelPinOptions.ts
 msgid "{label} (deprecated)"
 msgstr "{label} (obsoleto)"
-
-#. js-lingui-id: FdY/eP
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "{label} list"
-msgstr "Lista de {label}"
 
 #. js-lingui-id: q8vaHD
 #: src/modules/object-core/workflows/versions/components/CoreWorkflowVersionsListItem.tsx
@@ -813,9 +780,14 @@ msgid "{queuedMessage}, skipping {skipReasons}"
 msgstr "{queuedMessage}, omitiendo {skipReasons}"
 
 #. js-lingui-id: r4MTJW
-#: src/modules/log-console/components/LogConsoleTimeRangeDropdown.tsx
+#: src/modules/log-console/hooks/useLogConsoleRetention.ts
 msgid "{retentionInDays, plural, one {# day} other {# days}}"
 msgstr "{retentionInDays, plural, one {# día} other {# días}}"
+
+#. js-lingui-id: HlXLUQ
+#: src/modules/log-console/hooks/useLogConsoleRetention.ts
+msgid "{retentionInHours, plural, one {# hour} other {# hours}}"
+msgstr ""
 
 #. js-lingui-id: 5d0hY6
 #: src/modules/settings/admin-panel/health-status/hooks/useRetryJobs.ts
@@ -847,11 +819,6 @@ msgstr "{roleTargetName} será asignado al rol \"{newRoleName}\"."
 #: src/modules/object-core/agents/components/CoreAgentRunConversation.tsx
 msgid "{runCount, plural, one {# run} other {# runs}}"
 msgstr "{runCount, plural, one {# ejecución} other {# ejecuciones}}"
-
-#. js-lingui-id: UsskHt
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "{scopeCount} scopes"
-msgstr "{scopeCount} ámbitos"
 
 #. js-lingui-id: dQRNg5
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceUsageLimitModal.tsx
@@ -912,11 +879,6 @@ msgstr "{stepNumber}. Calendario"
 #: src/modules/workflow/workflow-steps/workflow-actions/send-chat-message-action/components/WorkflowEditActionSendChatMessage.tsx
 msgid "{storedToolName} (not available to you)"
 msgstr "{storedToolName} (no disponible para ti)"
-
-#. js-lingui-id: bI/mcH
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "{tabCount} tabs"
-msgstr "{tabCount} pestañas"
 
 #. js-lingui-id: XdG+hI
 #: src/modules/side-panel/pages/page-layout/components/record-page/SidePanelRecordPageFieldsSettings.tsx
@@ -1094,16 +1056,6 @@ msgstr "1 objeto"
 msgid "1 retry"
 msgstr "1 reintento"
 
-#. js-lingui-id: Mkh9C8
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "1 scope"
-msgstr "1 ámbito"
-
-#. js-lingui-id: W/OU4i
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "1 tab"
-msgstr "1 pestaña"
-
 #. js-lingui-id: m60AP0
 #: src/pages/settings/layout/SettingsLayoutPageLayoutDetail.tsx
 msgid "1 widget"
@@ -1139,6 +1091,11 @@ msgstr "12h"
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
 msgid "2 Columns"
 msgstr "2 Columnas"
+
+#. js-lingui-id: Ur5nZV
+#: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
+msgid "2 hours"
+msgstr ""
 
 #. js-lingui-id: 0HAF12
 #: src/pages/settings/data-model/new-field/SettingsObjectNewFieldConfigure.tsx
@@ -1314,7 +1271,6 @@ msgstr "Abortar"
 #: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
 #: src/modules/settings/logic-functions/components/SettingsLogicFunctionNewForm.tsx
 #: src/pages/settings/ai/components/SettingsSkillFormContent.tsx
-#: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationFrontComponentSettingsTab.tsx
 #: src/pages/settings/data-model/SettingsNewObject.tsx
 #: src/pages/settings/layout/components/SettingsLayoutDetailScaffold.tsx
@@ -1475,10 +1431,12 @@ msgstr "Acciones que los usuarios pueden realizar en este objeto"
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
 #: src/modules/settings/data-model/objects/components/SettingsObjectInactiveMenuDropDown.tsx
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
 #: src/modules/settings/security/components/sso/SettingsSecuritySsoRowDropdownMenu.tsx
+#: src/modules/validation-rules/components/SettingsValidationRuleEditForm.tsx
 #: src/pages/settings/admin-panel/SettingsAdminNewAiModel.tsx
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
@@ -1644,11 +1602,6 @@ msgstr "Agregar un enlace de videoconferencia"
 #: src/pages/object-core/WorkflowCoreIndexPage.tsx
 msgid "Add a Workflow"
 msgstr "Añadir un flujo de trabajo"
-
-#. js-lingui-id: OHMMfc
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Add a workflow step that sends a message, and optionally an action to approve, to a member's inbox."
-msgstr "Añade un paso de flujo de trabajo que envíe un mensaje y, opcionalmente, una acción para aprobar a la bandeja de entrada de un miembro."
 
 #. js-lingui-id: MPPZ54
 #: src/modules/activities/calendar/components/CalendarEventComposerFields.tsx
@@ -2071,6 +2024,12 @@ msgstr "Añadir a la lista de bloqueo"
 msgid "Add to Favorite"
 msgstr "Añadir a favoritos"
 
+#. js-lingui-id: A7duaz
+#: src/modules/side-panel/hooks/useOpenAddToMessageListInSidePanel.ts
+#: src/modules/side-panel/pages/add-to-message-list/components/SidePanelAddToMessageListPage.tsx
+msgid "Add to List"
+msgstr ""
+
 #. js-lingui-id: hKNhfF
 #: src/modules/settings/unsubscribe-topics/components/SettingsWorkspaceUnsubscribeTopicSection.tsx
 msgid "Add topic"
@@ -2345,7 +2304,6 @@ msgstr "Configuración del agente"
 #: src/modules/settings/usage/constants/UsageOperationTypeLabels.ts
 #: src/pages/object-core/AgentCoreIndexPage.tsx
 #: src/pages/settings/ai/components/SettingsAiModelsTab.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Agents"
 msgstr "Agentes"
 
@@ -2429,7 +2387,6 @@ msgid "AI settings"
 msgstr "Configuración de IA"
 
 #. js-lingui-id: X5Mx4I
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
 #: src/modules/settings/logic-functions/components/tabs/SettingsLogicFunctionTestTab.tsx
 #: src/modules/settings/logic-functions/components/triggers/SettingsLogicFunctionToolTriggerSection.tsx
 msgid "AI tool"
@@ -2558,11 +2515,6 @@ msgstr "Alineación"
 #: src/modules/views/view-picker/components/ViewPickerDropdown.tsx
 msgid "All"
 msgstr "Todos"
-
-#. js-lingui-id: 3saA7W
-#: src/modules/object-record/record-field-list/record-detail-section/relation/components/RecordDetailRelationSection.tsx
-msgid "All ({relationRecordsCount})"
-msgstr "Todos ({relationRecordsCount})"
 
 #. js-lingui-id: cF7bEt
 #: src/modules/ai/components/AiChatInboxSelectionPane.tsx
@@ -3137,13 +3089,9 @@ msgstr "Aplicación eliminada con éxito"
 
 #. js-lingui-id: Oh+wHS
 #: src/modules/log-console/constants/LogConsoleSources.tsx
+#: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
 msgid "App logs"
 msgstr "Registros de la aplicación"
-
-#. js-lingui-id: ZGfGyx
-#: src/modules/log-console/hooks/useLogConsoleRetention.ts
-msgid "App logs are kept {retentionInDays} days."
-msgstr "Los registros de la aplicación se conservan durante {retentionInDays} días."
 
 #. js-lingui-id: MAyGac
 #: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
@@ -3478,6 +3426,7 @@ msgstr "Pide a un administrador del espacio de trabajo el permiso Sincronizar cu
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 #: src/modules/side-panel/components/SidePanelAskAiInfo.tsx
 #: src/modules/side-panel/hooks/useOpenAskAiPageInSidePanel.ts
+#: src/modules/validation-rules/components/SettingsValidationRuleAskAiButton.tsx
 msgid "Ask AI"
 msgstr "Preguntar a IA"
 
@@ -3719,11 +3668,6 @@ msgstr "Registros de auditoría"
 msgid "Audit Logs"
 msgstr "Registros de auditoría"
 
-#. js-lingui-id: APXe7E
-#: src/modules/log-console/hooks/useLogConsoleRetention.ts
-msgid "Audit logs are kept {retentionInDays} days."
-msgstr "Los registros de auditoría se conservan durante {retentionInDays} días."
-
 #. js-lingui-id: 6TRVUO
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 msgid "Augment Code"
@@ -3856,21 +3800,11 @@ msgstr "Seleccionado automáticamente por Twenty para este modo."
 msgid "Automatically upgrade this application when a new version is published"
 msgstr "Actualizar automáticamente esta aplicación cuando se publique una nueva versión"
 
-#. js-lingui-id: BJgDIM
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
-msgid "Automation, AI, and access this app provides"
-msgstr "Automatización, IA y acceso que proporciona esta aplicación"
-
 #. js-lingui-id: lXkUEV
 #: src/modules/workflow/workflow-trigger/components/WorkflowEditTriggerManual.tsx
 #: src/pages/settings/applications/tabs/SettingsApplicationCommandMenuItemSettingsTab.tsx
 msgid "Availability"
 msgstr "Disponibilidad"
-
-#. js-lingui-id: tSW2mq
-#: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-msgid "Available application details"
-msgstr "Detalles de la aplicación disponible"
 
 #. js-lingui-id: kfcRb0
 #: src/modules/ui/field/display/components/internal/AvatarOrIcon/AvatarOrIcon.tsx
@@ -4016,6 +3950,11 @@ msgstr "entre el minuto {start} y {end}"
 msgid "between the {startOrdinal} and {endOrdinal} of the month"
 msgstr "entre el {startOrdinal} y {endOrdinal} del mes"
 
+#. js-lingui-id: +eacS5
+#: src/modules/marketplace/utils/buildApplicationBillingSummary.ts
+msgid "Bill credits to your workspace"
+msgstr ""
+
 #. js-lingui-id: aIkeAd
 #: src/modules/settings/billing/components/internal/SettingsBillingPlanComparisonTable.tsx
 msgid "Billed monthly"
@@ -4071,6 +4010,11 @@ msgstr "Error en la sesión del portal de facturación. Por favor, reintenta o c
 #: src/modules/settings/billing/hooks/useBillingSubscriptionChangeWording.ts
 msgid "Billing stays {upcomingIntervalAdjective}. To switch to {selectedIntervalAdjective} billing, confirm this change first, then switch the billing interval as a second step."
 msgstr "La facturación se mantiene {upcomingIntervalAdjective}. Para cambiar a la facturación {selectedIntervalAdjective}, primero confirma este cambio y, a continuación, cambia el intervalo de facturación como segundo paso."
+
+#. js-lingui-id: 75WIQJ
+#: src/modules/settings/applications/components/SettingsApplicationAboutSidebar.tsx
+msgid "Bills credits"
+msgstr ""
 
 #. js-lingui-id: 8kIU+G
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
@@ -4199,6 +4143,11 @@ msgstr "Explorar hilos de chat de IA en todos los espacios de trabajo, incluidos
 #: src/pages/settings/community/SettingsCommunity.tsx
 msgid "Browse partners"
 msgstr "Explorar socios"
+
+#. js-lingui-id: 8nmCIQ
+#: src/modules/settings/event-logs/components/SettingsOpenLogConsoleCard.tsx
+msgid "Browse record changes, security events, app logs and more"
+msgstr ""
 
 #. js-lingui-id: GsXRxc
 #: src/modules/settings/data-model/indexes/forms/components/SettingsObjectIndexOptionsForm.tsx
@@ -4537,6 +4486,7 @@ msgstr "¿No puedes escanear? Copia el"
 #: src/modules/settings/components/SaveAndCancelButtons/CancelButton.tsx
 #: src/modules/settings/config-variables/components/ConfigVariableEdit.tsx
 #: src/modules/settings/profile/components/EmailField.tsx
+#: src/modules/side-panel/pages/add-to-message-list/components/SidePanelAddToMessageListPage.tsx
 #: src/modules/side-panel/pages/record-creation-form-settings/components/SidePanelRecordCreationFormSettingsPage.tsx
 #: src/modules/spreadsheet-import/provider/components/SpreadsheetImport.tsx
 #: src/modules/spreadsheet-import/steps/components/ImportDataStep.tsx
@@ -5478,7 +5428,6 @@ msgstr "Elemento del menú de comandos"
 
 #. js-lingui-id: yVBJNs
 #: src/pages/settings/applications/SettingsApplicationCommandMenuItemDetail.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Command menu items"
 msgstr "Elementos del menú de comandos"
 
@@ -5699,11 +5648,6 @@ msgstr "Configura cómo aparece este objeto en los resultados de búsqueda"
 msgid "Configure IMAP settings to receive and sync your emails."
 msgstr "Configura los ajustes de IMAP para recibir y sincronizar tus correos electrónicos."
 
-#. js-lingui-id: uUDe3+
-#: src/pages/settings/data-model/validation-rules/SettingsObjectNewValidationRule.tsx
-msgid "Configure rule"
-msgstr "Configurar regla"
-
 #. js-lingui-id: gk/8eh
 #: src/modules/settings/accounts/components/SettingsAccountsConnectionForm.tsx
 msgid "Configure SMTP settings to send emails from your account."
@@ -5902,11 +5846,6 @@ msgstr "Conexión no encontrada"
 msgid "connection provider"
 msgstr "proveedor de conexión"
 
-#. js-lingui-id: sbBqyy
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
-msgid "Connection providers"
-msgstr "Proveedores de conexión"
-
 #. js-lingui-id: W4Kgwq
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
 #: src/modules/settings/app-preferences/components/SettingsAppPreferencesRowDropdownMenu.tsx
@@ -5967,7 +5906,6 @@ msgstr "Contiene"
 
 #. js-lingui-id: 4b3oEV
 #: src/modules/side-panel/pages/email-block-settings/components/EmailBlockInsertList.tsx
-#: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
 msgid "Content"
 msgstr "Contenido"
 
@@ -6087,11 +6025,6 @@ msgstr "Conversaciones"
 #: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCardContent.tsx
 msgid "Conversations linked to this record will appear here."
 msgstr "Las conversaciones vinculadas a este registro aparecerán aquí."
-
-#. js-lingui-id: SXWEJM
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Conversations tab"
-msgstr "Pestaña Conversaciones"
 
 #. js-lingui-id: LMvWS1
 #: src/pages/ai-chat/AiChatInboxPage.tsx
@@ -6494,6 +6427,11 @@ msgstr "Contar falsos"
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
 msgid "Count not empty"
 msgstr "Contar no vacíos"
+
+#. js-lingui-id: kBoBg1
+#: src/modules/settings/workspace/components/OpenTrackingSwitch.tsx
+msgid "Count opens with an invisible image. Mail apps can block or preload it."
+msgstr ""
 
 #. js-lingui-id: ft6dHY
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationLabel.ts
@@ -6944,7 +6882,6 @@ msgid "Crimson"
 msgstr "Carmesí"
 
 #. js-lingui-id: 6Oaeoc
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
 #: src/modules/settings/logic-functions/components/tabs/SettingsLogicFunctionTestTab.tsx
 #: src/modules/settings/logic-functions/components/triggers/SettingsLogicFunctionCronTriggerSection.tsx
 msgid "Cron"
@@ -7195,6 +7132,11 @@ msgstr "Vista personalizada"
 msgid "Custom views"
 msgstr "Vistas personalizadas"
 
+#. js-lingui-id: T8n/Qf
+#: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
+msgid "Custom, up to 3 years"
+msgstr ""
+
 #. js-lingui-id: 876pfE
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Customer"
@@ -7343,7 +7285,6 @@ msgstr "Se duplicó el tablero con éxito"
 #: src/modules/side-panel/pages/workflow/action/components/SidePanelWorkflowSelectAction.tsx
 #: src/modules/side-panel/pages/workflow/trigger-type/components/SidePanelWorkflowSelectTriggerTypeContent.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/utils/getActionHeaderTypeOrThrow.ts
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Data"
 msgstr "Datos"
 
@@ -7421,7 +7362,6 @@ msgid "Database configuration is currently disabled."
 msgstr "La configuración de la base de datos está actualmente desactivada."
 
 #. js-lingui-id: lP42oc
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
 #: src/modules/settings/logic-functions/components/tabs/SettingsLogicFunctionTestTab.tsx
 #: src/modules/settings/logic-functions/components/triggers/SettingsLogicFunctionDatabaseEventTriggerSection.tsx
 msgid "Database event"
@@ -8604,11 +8544,6 @@ msgstr "Nodo duplicado"
 #: src/modules/side-panel/pages/page-layout/components/WidgetSettingsFooter.tsx
 msgid "Duplicate widget"
 msgstr ""
-
-#. js-lingui-id: cheWPw
-#: src/modules/object-record/record-field-list/record-detail-section/duplicate/components/RecordDetailDuplicatesSection.tsx
-msgid "Duplicates"
-msgstr "Duplicados"
 
 #. js-lingui-id: lkz6PL
 #: src/modules/object-core/agents/components/CoreAgentRunsTab.tsx
@@ -10219,6 +10154,12 @@ msgstr "No se pudo activar la habilidad"
 msgid "Failed to add model"
 msgstr "Error al añadir el modelo"
 
+#. js-lingui-id: oRMUGG
+#: src/modules/side-panel/pages/add-to-message-list/hooks/useAddPeopleToMessageList.ts
+#: src/modules/side-panel/pages/add-to-message-list/hooks/useAddPeopleToMessageList.ts
+msgid "Failed to add people to the list. Please try again."
+msgstr ""
+
 #. js-lingui-id: gU+vGA
 #: src/pages/settings/admin-panel/SettingsAdminNewAiProvider.tsx
 msgid "Failed to add provider"
@@ -10262,7 +10203,7 @@ msgid "Failed to create the limit."
 msgstr "No se pudo crear el límite."
 
 #. js-lingui-id: jrwIEQ
-#: src/pages/settings/data-model/validation-rules/SettingsObjectNewValidationRule.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectValidationRulesSection.tsx
 msgid "Failed to create the rule."
 msgstr "No se pudo crear la regla."
 
@@ -10804,11 +10745,6 @@ msgstr "Campos (opcional)"
 msgid "Fields (Optional)"
 msgstr "Campos (opcional)"
 
-#. js-lingui-id: h5NDR9
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
-msgid "Fields added to other objects"
-msgstr "Campos agregados a otros objetos"
-
 #. js-lingui-id: Tnz22x
 #: src/modules/object-record/record-merge/components/MergeSettingsTab.tsx
 msgid "Fields conflicts"
@@ -11127,8 +11063,6 @@ msgstr "Flujo"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemActions.tsx
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemTypeTooltip.tsx
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemAddOptions.tsx
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
 msgid "Folder"
 msgstr "Carpeta"
 
@@ -11166,11 +11100,6 @@ msgstr "Sigue el valor predeterminado del espacio de trabajo para los agentes"
 #: src/modules/advanced-text-editor/utils/getAdvancedTextEditorTypographySettings.ts
 msgid "Font size"
 msgstr "Tamaño de fuente"
-
-#. js-lingui-id: Ghistm
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "for {objectLabel}"
-msgstr "para {objectLabel}"
 
 #. js-lingui-id: JM8DiQ
 #: src/modules/workflow/workflow-steps/workflow-actions/classify-action/components/WorkflowEditActionClassify.tsx
@@ -11331,7 +11260,6 @@ msgstr "Detalles del componente de interfaz"
 
 #. js-lingui-id: IvIKDS
 #: src/pages/settings/applications/SettingsApplicationFrontComponentDetail.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Front components"
 msgstr "Componentes de frontend"
 
@@ -12106,11 +12034,6 @@ msgstr "Cómo funcionan los créditos"
 msgid "How much can be spent, and how often it resets."
 msgstr "Cuánto se puede gastar y con qué frecuencia se restablece."
 
-#. js-lingui-id: WC32k6
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
-msgid "How records, pages, and navigation are displayed"
-msgstr "Cómo se muestran los registros, las páginas y la navegación"
-
 #. js-lingui-id: tdbxbk
 #: src/modules/validation-rules/components/SettingsValidationRuleForm.tsx
 msgid "How this rule appears in settings."
@@ -12144,7 +12067,6 @@ msgid "HTML"
 msgstr "HTML"
 
 #. js-lingui-id: LUTGt0
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
 #: src/modules/settings/logic-functions/components/tabs/SettingsLogicFunctionTestTab.tsx
 #: src/modules/settings/logic-functions/components/triggers/SettingsLogicFunctionHttpTriggerSection.tsx
 msgid "HTTP"
@@ -13585,7 +13507,6 @@ msgstr "diseño"
 #: src/modules/side-panel/pages/page-layout/components/record-page/SidePanelRecordPageFieldsSettings.tsx
 #: src/modules/side-panel/pages/page-layout/components/record-table-settings/WidgetViewLayoutSettingsRows.tsx
 #: src/modules/side-panel/utils/getSidePanelSubPageTitle.ts
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 #: src/pages/settings/data-model/SettingsObjectDetailPage.tsx
 #: src/pages/settings/layout/SettingsLayout.tsx
 #: src/pages/settings/layout/SettingsLayout.tsx
@@ -13883,7 +13804,6 @@ msgstr "enlace"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemTypeTooltip.tsx
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemAddOptions.tsx
 #: src/modules/settings/admin-panel/health-status/maintenance-mode/components/SettingsAdminMaintenanceMode.tsx
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
 msgid "Link"
 msgstr "Enlace"
 
@@ -13939,6 +13859,7 @@ msgstr "lista"
 
 #. js-lingui-id: 2BBAbc
 #: src/modules/page-layout/widgets/record-table/types/RecordTableWidgetLayoutViewType.ts
+#: src/modules/side-panel/pages/add-to-message-list/components/SidePanelAddToMessageListPage.tsx
 #: src/modules/side-panel/pages/send-campaign/components/SendCampaignForm.tsx
 #: src/modules/views/types/ViewType.ts
 msgid "List"
@@ -14145,6 +14066,11 @@ msgstr "Bloquear diagrama"
 msgid "Log a new deal (company, amount, stage, expected close). Details: "
 msgstr "Registra una nueva oportunidad (empresa, importe, etapa, fecha de cierre prevista). Detalles: "
 
+#. js-lingui-id: qLzdcJ
+#: src/modules/settings/event-logs/components/SettingsOpenLogConsoleCard.tsx
+msgid "Log console"
+msgstr ""
+
 #. js-lingui-id: RV6CK8
 #: src/modules/log-console/components/LogConsoleDetailPanel.tsx
 msgid "Log copied as JSON"
@@ -14165,6 +14091,7 @@ msgid "Log out all other devices"
 msgstr "Cerrar sesión en todos los demás dispositivos"
 
 #. js-lingui-id: qakNlV
+#: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
 msgid "Log retention"
 msgstr "Retención de registros"
@@ -14191,7 +14118,6 @@ msgstr "Se cerró la sesión en todos los demás dispositivos"
 
 #. js-lingui-id: wuCnq1
 #: src/modules/settings/roles/role-permissions/permission-flags/components/SettingsRolePermissionsToolSection.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Logic"
 msgstr "Lógica"
 
@@ -14213,7 +14139,6 @@ msgstr "Función de lógica"
 
 #. js-lingui-id: QTVVDd
 #: src/modules/settings/billing/constants/UsageLimitResourceTypeLabels.ts
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 #: src/pages/settings/logic-functions/SettingsLogicFunctionDetail.tsx
 #: src/pages/settings/logic-functions/SettingsLogicFunctionDetail.tsx
 msgid "Logic functions"
@@ -14246,6 +14171,16 @@ msgstr "registros"
 #: src/pages/settings/general/SettingsGeneral.tsx
 msgid "Logs"
 msgstr "Registros"
+
+#. js-lingui-id: FBD/J1
+#: src/modules/settings/security/components/SettingsSecuritySettings.tsx
+msgid "Logs are kept {proPlanEventLogRetentionInHours} hours on your plan. Upgrade to customize retention."
+msgstr ""
+
+#. js-lingui-id: 6SoluV
+#: src/modules/log-console/hooks/useLogConsoleRetention.ts
+msgid "Logs are kept {retentionLabel}."
+msgstr ""
 
 #. js-lingui-id: vOd7ZN
 #: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
@@ -14694,11 +14629,6 @@ msgstr "Acciones del elemento de menú"
 #: src/modules/object-record/record-merge/components/MergeRecordsFooter.tsx
 msgid "Merge"
 msgstr "Fusionar"
-
-#. js-lingui-id: cfSo6A
-#: src/modules/object-record/record-field-list/record-detail-section/duplicate/components/RecordDetailDuplicatesSection.tsx
-msgid "Merge duplicates"
-msgstr "Combinar duplicados"
 
 #. js-lingui-id: d2c8f+
 #: src/modules/object-record/record-merge/hooks/useMergeRecordsContainerTabs.ts
@@ -15272,11 +15202,6 @@ msgstr "Historial de navegación"
 msgid "navigation menu item"
 msgstr "elemento del menú de navegación"
 
-#. js-lingui-id: jRptK+
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
-msgid "Navigation menu items"
-msgstr "Elementos del menú de navegación"
-
 #. js-lingui-id: aTTshK
 #: src/modules/navigation/components/MainNavigationDrawerModeSwitcher.tsx
 msgid "Navigation modes"
@@ -15491,7 +15416,7 @@ msgid "New rollover limit"
 msgstr "Nuevo límite de acumulación"
 
 #. js-lingui-id: yBF5J5
-#: src/pages/settings/data-model/validation-rules/SettingsObjectNewValidationRule.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectValidationRulesSection.tsx
 msgid "New rule"
 msgstr "Nueva regla"
 
@@ -15589,6 +15514,11 @@ msgstr "Próximo cobro {totalRenewDate}. El importe de la factura puede variar s
 #: src/modules/ai/components/AiChatInboxThreadPagination.tsx
 msgid "Next chat"
 msgstr "Siguiente chat"
+
+#. js-lingui-id: F/RdYr
+#: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
+msgid "Next invoice {totalRenewDate}. Invoice amount may vary if you add members or credits between periods"
+msgstr ""
 
 #. js-lingui-id: LTn6w8
 #: src/modules/workflow/workflow-steps/workflow-actions/iterator-action/components/WorkflowIteratorSubStepSwitcher.tsx
@@ -15921,7 +15851,7 @@ msgid "No deleted records matching the filter criteria were found."
 msgstr "No se encontraron registros eliminados que coincidan con los criterios del filtro."
 
 #. js-lingui-id: RRRePs
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailAboutTab.tsx
+#: src/pages/settings/applications/components/SettingsApplicationDetailAbout.tsx
 msgid "No description available for this application"
 msgstr "No hay descripción disponible para esta aplicación"
 
@@ -16143,11 +16073,6 @@ msgstr "Sin parámetros"
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
 msgid "No payment method found. Please update your billing details."
 msgstr "No se encontró ningún método de pago. Por favor, actualice sus datos de facturación."
-
-#. js-lingui-id: Od1X93
-#: src/pages/settings/applications/tabs/SettingsApplicationPermissionsTab.tsx
-msgid "No permissions configured for this application."
-msgstr "No hay permisos configurados para esta aplicación."
 
 #. js-lingui-id: kSCxfd
 #: src/modules/settings/roles/role-permissions/object-level-permissions/components/SettingsRolePermissionsObjectLevelSection.tsx
@@ -16737,10 +16662,10 @@ msgstr "Formato de número"
 msgid "Number of dashboards"
 msgstr "Número de paneles"
 
-#. js-lingui-id: +cbzNC
+#. js-lingui-id: n13TAo
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
-msgid "Number of days to retain audit logs (30-1095 days)"
-msgstr "Número de días para conservar los registros de auditoría (30-1095 días)"
+msgid "Number of days to retain logs ({minEventLogRetentionInDays}-{maxEventLogRetentionInDays} days)"
+msgstr ""
 
 #. js-lingui-id: 0fRFSb
 #: src/modules/settings/data-model/fields/forms/currency/components/SettingsDataModelFieldCurrencyForm.tsx
@@ -16776,11 +16701,6 @@ msgstr "Lista numerada"
 msgid "OAuth"
 msgstr "OAuth"
 
-#. js-lingui-id: IxKj9Y
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-msgid "OAuth 2.0"
-msgstr "OAuth 2.0"
-
 #. js-lingui-id: C1b55F
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
 msgid "OAuth credential metadata for this application connection"
@@ -16799,7 +16719,6 @@ msgstr "objeto"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemTypeTooltip.tsx
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemAddOptions.tsx
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
 #: src/modules/settings/developers/components/WebhookEntitySelect.tsx
 #: src/modules/side-panel/components/SidePanelObjectFilterDropdownContent.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionCreateRecord.tsx
@@ -16877,7 +16796,6 @@ msgstr "Nivel de Objeto"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 #: src/modules/settings/roles/role-permissions/objects-permissions/components/SettingsRolePermissionsObjectsSection.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowAiAgentPermissionsObjectsList.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 #: src/pages/settings/data-model/new-field/SettingsObjectNewFieldConfigure.tsx
 #: src/pages/settings/data-model/new-field/SettingsObjectNewFieldSelect.tsx
 #: src/pages/settings/data-model/new-index/SettingsObjectNewIndex.tsx
@@ -16930,16 +16848,6 @@ msgstr "ol"
 #: src/modules/side-panel/pages/page-layout/constants/settings/ChartConfigurationSettingLabels.ts
 msgid "Omit zero values"
 msgstr "Omitir valores cero"
-
-#. js-lingui-id: UCQiqt
-#. placeholder {0}: appObject.labelSingular
-#. placeholder {0}: item.labelSingular
-#. placeholder {0}: objectMetadataItem.labelSingular
-#: src/modules/settings/applications/hooks/useComputeObjectAndFieldsContentForApplication.ts
-#: src/modules/settings/applications/hooks/useComputeObjectAndFieldsContentForApplication.ts
-#: src/modules/settings/applications/hooks/useComputeObjectAndFieldsContentForApplication.ts
-msgid "on {0}"
-msgstr "en {0}"
 
 #. js-lingui-id: 2AKHUG
 #: src/modules/object-core/agents/components/CoreAgentTriggerCard.tsx
@@ -17037,11 +16945,6 @@ msgstr "Uno por ejecución"
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
 msgid "One subscription provides one Organization key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install Twenty on a second server, activate it with this same Organization key, then register that server as a development instance. Development instances unlock premium features without extra billing and do not count toward your production seats."
 msgstr "Una suscripción proporciona una clave de Organización que impulsa una instancia de producción y una posible instancia de ensayo o prueba. Para ejecutar un entorno de ensayo o prueba, instala Twenty en un segundo servidor, actívalo con esta misma clave de Organización y registra ese servidor como instancia de desarrollo. Las instancias de desarrollo desbloquean funciones premium sin facturación adicional y no cuentan para tus plazas de producción."
-
-#. js-lingui-id: JEtonz
-#: src/modules/settings/event-logs/components/SettingsLogs.tsx
-msgid "Only application logs are available on your current plan. Other log types require an Organization subscription."
-msgstr "Solo los registros de aplicación están disponibles en tu plan actual. Otros tipos de registro requieren una suscripción Organization."
 
 #. js-lingui-id: JzXn58
 #: src/pages/settings/applications/utils/getClaimErrorContent.ts
@@ -17235,6 +17138,11 @@ msgstr "Abrir en el panel lateral"
 msgid "Open link"
 msgstr "Abrir enlace"
 
+#. js-lingui-id: MQAnOH
+#: src/modules/settings/event-logs/components/SettingsOpenLogConsoleCard.tsx
+msgid "Open log console"
+msgstr ""
+
 #. js-lingui-id: uNObrK
 #: src/modules/command-menu-item/display/hooks/useCommandMenuAppActions.ts
 msgid "Open logs console"
@@ -17425,6 +17333,7 @@ msgstr "Organización"
 #. js-lingui-id: 0Ogq/s
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
 #: src/pages/settings/ai/components/SettingsAiUsageTab.tsx
@@ -17659,7 +17568,6 @@ msgid "page layout"
 msgstr "diseño de página"
 
 #. js-lingui-id: kbnS+K
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
 #: src/pages/settings/layout/SettingsLayoutPageLayoutDetail.tsx
 msgid "Page layout"
 msgstr "Diseño de página"
@@ -17675,7 +17583,6 @@ msgid "page layout widget"
 msgstr "widget de Diseño de página"
 
 #. js-lingui-id: ckYXHz
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 #: src/pages/settings/layout/SettingsLayoutPageLayoutDetail.tsx
 msgid "Page layouts"
 msgstr "Diseños de página"
@@ -17831,6 +17738,11 @@ msgstr "PDF"
 msgid "Pending"
 msgstr "Pendiente"
 
+#. js-lingui-id: 5ls+QH
+#: src/modules/side-panel/pages/add-to-message-list/hooks/useAddPeopleToMessageList.ts
+msgid "People added to the list."
+msgstr ""
+
 #. js-lingui-id: R/RRKy
 #: src/modules/side-panel/pages/share-record/components/SidePanelShareRecordContent.tsx
 msgid "People and roles with access"
@@ -17936,7 +17848,6 @@ msgstr "indicador de permiso"
 #: src/modules/settings/app-preferences/components/SettingsAccountGroupsSection.tsx
 #: src/modules/settings/roles/role/components/SettingsRole.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowEditActionAiAgent.tsx
-#: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
 msgid "Permissions"
 msgstr "Permisos"
@@ -18226,21 +18137,11 @@ msgstr "posición descendente"
 msgid "Post Code"
 msgstr "Código postal"
 
-#. js-lingui-id: VFf6Bm
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
-msgid "Post-install"
-msgstr "Posinstalación"
-
 #. js-lingui-id: OKJUcC
 #: src/modules/object-metadata/hooks/useSortSubFieldChoicesForField.ts
 #: src/modules/settings/data-model/fields/forms/address/constants/DefaultSelectionAddressWithMessages.ts
 msgid "Postcode"
 msgstr "Código postal"
-
-#. js-lingui-id: W88dRa
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
-msgid "Pre-install"
-msgstr "Preinstalación"
 
 #. js-lingui-id: iVFTRM
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationGeneralSwitches.tsx
@@ -18855,8 +18756,6 @@ msgstr "registro"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemTypeTooltip.tsx
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemAddOptions.tsx
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemAddOptions.tsx
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
 #: src/modules/side-panel/pages/page-layout/components/dropdown-content/ChartGroupByFieldSelectionTargetObjectFieldsView.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionDeleteRecord.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowEditActionUpdateRecord.tsx
@@ -18878,6 +18777,11 @@ msgstr "Registro (opcional)"
 msgid "Record {displayedRecordNumber} of {recordCount}"
 msgstr "Registro {displayedRecordNumber} de {recordCount}"
 
+#. js-lingui-id: v5nqef
+#: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
+msgid "Record change logs"
+msgstr ""
+
 #. js-lingui-id: VW8X7n
 #: src/modules/log-console/constants/LogConsoleSources.tsx
 msgid "Record changes"
@@ -18885,6 +18789,7 @@ msgstr "Cambios de registros"
 
 #. js-lingui-id: tpEWQj
 #: src/modules/log-console/components/LogConsole.tsx
+#: src/modules/settings/event-logs/components/SettingsLogs.tsx
 msgid "Record changes and app logs are available on your current plan. Other log types require an Organization subscription."
 msgstr "Los cambios de registros y los registros de la aplicación están disponibles en tu plan actual. Otros tipos de registro requieren una suscripción Organization."
 
@@ -19967,7 +19872,6 @@ msgstr "Rol actualizado con éxito"
 #: src/modules/settings/roles/role-permissions/object-level-permissions/object-form/components/SettingsRolePermissionsObjectLevelObjectForm.tsx
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useSettingsRolePermissionFlagConfig.ts
 #: src/modules/settings/roles/role/components/SettingsRole.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 #: src/pages/settings/members/roles/SettingsRoleAddObjectLevel.tsx
 #: src/pages/settings/members/SettingsWorkspaceMembers.tsx
 msgid "Roles"
@@ -20035,10 +19939,10 @@ msgstr "Seguridad a nivel de fila"
 msgid "Ruby"
 msgstr "Rubí"
 
-#. js-lingui-id: jXsttb
-#: src/pages/settings/data-model/validation-rules/SettingsObjectNewValidationRule.tsx
-msgid "Rule created."
-msgstr "Regla creada."
+#. js-lingui-id: tijGcA
+#: src/modules/validation-rules/components/SettingsValidationRuleEditForm.tsx
+msgid "Rule activated."
+msgstr ""
 
 #. js-lingui-id: Tz7o+/
 #: src/modules/validation-rules/components/SettingsValidationRuleEditForm.tsx
@@ -20175,7 +20079,7 @@ msgstr "Sábado"
 #: src/modules/settings/config-variables/components/ConfigVariableEdit.tsx
 #: src/modules/settings/profile/components/EmailField.tsx
 #: src/modules/side-panel/pages/record-creation-form-settings/components/SidePanelRecordCreationFormSettingsPage.tsx
-#: src/modules/validation-rules/components/SettingsValidationRulePageLayout.tsx
+#: src/modules/validation-rules/components/SettingsValidationRuleEditForm.tsx
 #: src/pages/settings/data-model/new-field/SettingsObjectNewFieldConfigure.tsx
 msgid "Save"
 msgstr "Guardar"
@@ -20270,11 +20174,6 @@ msgstr "Esquema"
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceContent.tsx
 msgid "Schema name"
 msgstr "Nombre del esquema"
-
-#. js-lingui-id: IYEdtc
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
-msgid "Schema this app contributes to your workspace"
-msgstr "Esquema que esta aplicación aporta a tu espacio de trabajo"
 
 #. js-lingui-id: aBgwis
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceUsageLimitsSection.tsx
@@ -20614,7 +20513,6 @@ msgstr "Buscar miembros del espacio de trabajo"
 #. js-lingui-id: YIix5Y
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 #: src/modules/settings/developers/components/WebhookEntitySelect.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Search..."
 msgstr "Buscar..."
 
@@ -21624,11 +21522,6 @@ msgstr "Mostrar {0}"
 msgid "Show {hiddenOptionalCount} optional arguments"
 msgstr "Mostrar {hiddenOptionalCount} argumentos opcionales"
 
-#. js-lingui-id: I2DNv8
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Show a Conversations tab listing the AI conversations attached to the record, on record pages of new workspaces."
-msgstr "Muestra una pestaña Conversaciones que enumera las conversaciones de IA adjuntas al registro, en las páginas de registro de los nuevos espacios de trabajo."
-
 #. js-lingui-id: 3MO9Sa
 #: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
 msgid "Show a logs console at the bottom of the app in Advanced mode."
@@ -21886,7 +21779,6 @@ msgstr "No se encontró la habilidad"
 #: src/pages/settings/ai/components/SettingsAgentSkillsTab.tsx
 #: src/pages/settings/ai/components/SettingsAiOverviewTab.tsx
 #: src/pages/settings/ai/SettingsAI.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Skills"
 msgstr "Habilidades"
 
@@ -24004,7 +23896,6 @@ msgstr "Tipo de actividad de la cronología"
 
 #. js-lingui-id: YZJ+T0
 #: src/pages/settings/applications/SettingsApplicationTimelineActivityTypeDetail.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 msgid "Timeline activity types"
 msgstr "Tipos de actividades de la cronología"
 
@@ -24241,6 +24132,11 @@ msgstr "Realice un seguimiento del consumo de IA en su espacio de trabajo."
 #: src/modules/settings/workspace/components/ClickTrackingSwitch.tsx
 msgid "Track link clicks"
 msgstr "Rastrear clics en enlaces"
+
+#. js-lingui-id: zoE6gY
+#: src/modules/settings/workspace/components/OpenTrackingSwitch.tsx
+msgid "Track opens"
+msgstr ""
 
 #. js-lingui-id: U0HZma
 #: src/pages/settings/communications/SettingsWorkspaceCommunications.tsx
@@ -24511,10 +24407,10 @@ msgstr "Desactivar el modo de desarrollador"
 msgid "Turn on developer mode"
 msgstr "Activar el modo de desarrollador"
 
-#. js-lingui-id: Ug9k2v
+#. js-lingui-id: 10DZzC
 #: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Turn the AI tab into an inbox to triage, assign, snooze and follow chats, and let workflows route agent questions to a member."
-msgstr "Convierte la pestaña IA en una bandeja de entrada para clasificar, asignar, posponer y seguir chats, y permite que los flujos de trabajo dirijan las preguntas del agente a un miembro."
+msgid "Turn the AI tab into an inbox to triage, assign, snooze and follow chats, let workflows send messages and agent questions to a member's inbox, and show a Conversations tab on record pages."
+msgstr ""
 
 #. js-lingui-id: 2JBBhG
 #: src/modules/validation-rules/constants/ValidationRuleKeywords.ts
@@ -24740,7 +24636,6 @@ msgid "Undo"
 msgstr "Deshacer"
 
 #. js-lingui-id: fo0VXg
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
 #: src/modules/settings/applications/components/SettingsApplicationUninstallButton.tsx
 #: src/modules/settings/applications/components/SettingsApplicationUninstallButton.tsx
 msgid "Uninstall"
@@ -25294,15 +25189,15 @@ msgstr "¿Actualizar a facturación anual?"
 msgid "Upgrade to Organization"
 msgstr "Actualizar a Organization"
 
-#. js-lingui-id: q10MiT
-#: src/modules/settings/security/components/SettingsSecuritySettings.tsx
-msgid "Upgrade to Organization to access audit logs."
-msgstr "Actualice a Organization para acceder a los registros de auditoría."
-
 #. js-lingui-id: SN4fM+
 #: src/modules/settings/security/components/SettingsSecuritySettings.tsx
 msgid "Upgrade to Organization to configure SSO."
 msgstr "Actualiza a Organization para configurar SSO."
+
+#. js-lingui-id: Pe/uhP
+#: src/modules/settings/data-model/object-details/components/tabs/ObjectSettings.tsx
+msgid "Upgrade to Organization to set validation rules."
+msgstr ""
 
 #. js-lingui-id: Ic7ooY
 #: src/modules/settings/billing/hooks/useBillingSubscriptionChangeWording.ts
@@ -25562,11 +25457,6 @@ msgstr "Usa solo letras, números, guiones bajos, puntos o guiones (máx. 64 car
 #: src/modules/object-record/record-table/empty-state/utils/getEmptyStateSubTitle.ts
 msgid "Use our API or add your first {objectLabel} manually"
 msgstr "Utiliza nuestra API o añade tu primer {objectLabel} manualmente"
-
-#. js-lingui-id: 40bRe+
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Use the dedicated workflow index page to browse workflows and their versions."
-msgstr "Usar la página de índice específica de flujos de trabajo para explorar los flujos de trabajo y sus versiones."
 
 #. js-lingui-id: z1f4Op
 #: src/modules/workflow/workflow-variables/utils/getWorkflowVariableSpecialItems.ts
@@ -25927,7 +25817,6 @@ msgstr "vista"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemTypeTooltip.tsx
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemAddOptions.tsx
-#: src/modules/settings/applications/hooks/useComputeApplicationContentForLayoutAndLogic.ts
 #: src/modules/settings/data-model/object-details/components/SettingsObjectFieldDisabledActionDropdown.tsx
 #: src/modules/settings/data-model/objects/components/SettingsObjectInactiveMenuDropDown.tsx
 #: src/modules/settings/developers/components/WebhookEntitySelect.tsx
@@ -26068,7 +25957,6 @@ msgstr "Lector"
 #. js-lingui-id: 1I6UoR
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 #: src/modules/settings/layout/components/SettingsLayoutItemsStats.tsx
-#: src/pages/settings/applications/tabs/SettingsApplicationDetailContentTab.tsx
 #: src/pages/settings/layout/SettingsLayoutViewDetail.tsx
 msgid "Views"
 msgstr "Vistas"
@@ -26294,6 +26182,11 @@ msgstr "Buscamos coincidencias en estos campos. Si ya existe un {0}, lo actualiz
 #: src/modules/settings/components/SettingsImageInput.tsx
 msgid "We support your square PNGs, JPEGs and GIFs under 10MB"
 msgstr "Admitimos tus PNG, JPEG y GIF cuadrados de menos de 10 MB"
+
+#. js-lingui-id: dXjeau
+#: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
+msgid "We will activate your {planName} and email your invoice now. Do you want to proceed?"
+msgstr ""
 
 #. js-lingui-id: Fui3cz
 #: src/modules/settings/billing/components/SettingsBillingSubscriptionInfo.tsx
@@ -26670,7 +26563,6 @@ msgid "Workflow"
 msgstr "Flujo de trabajo"
 
 #. js-lingui-id: eQ/LA/
-#: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
 #: src/modules/settings/logic-functions/components/triggers/SettingsLogicFunctionWorkflowActionTriggerSection.tsx
 msgid "Workflow action"
 msgstr "Acción del Flujo de Trabajo"
@@ -26689,16 +26581,6 @@ msgstr "Se duplicó el Workflow con éxito"
 #: src/modules/settings/usage/constants/UsageOperationTypeLabels.ts
 msgid "Workflow Execution"
 msgstr "Ejecución de flujo de trabajo"
-
-#. js-lingui-id: uMSeM4
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Workflow inbox messages"
-msgstr "Mensajes de bandeja de entrada de flujos de trabajo"
-
-#. js-lingui-id: 91e2Af
-#: src/modules/settings/admin-panel/constants/SettingsAdminFeatureFlagMetadata.ts
-msgid "Workflow index page"
-msgstr "Página de índice de flujos de trabajo"
 
 #. js-lingui-id: R67jts
 #: src/pages/object-core/WorkflowCoreShowPage.tsx

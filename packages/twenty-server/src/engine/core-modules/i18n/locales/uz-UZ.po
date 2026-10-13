@@ -653,6 +653,25 @@ msgctxt "commandMenuItem.label"
 msgid "Add to Favorites"
 msgstr "Sevimlilarga qo‘shish"
 
+#. js-lingui-id: aK7htM
+#: src/engine/workspace-manager/twenty-standard-application/constants/standard-command-menu-item.constant.ts
+msgctxt "commandMenuItem.label"
+msgid "Add to List"
+msgstr ""
+
+#. js-lingui-id: 5QVriP
+#: src/engine/workspace-manager/twenty-standard-application/constants/standard-command-menu-item.constant.ts
+#: src/engine/workspace-manager/twenty-standard-application/constants/standard-command-menu-item.constant.ts
+msgctxt "commandMenuItem.shortLabel"
+msgid "Add to List"
+msgstr ""
+
+#. js-lingui-id: sGGJFX
+#: src/engine/workspace-manager/twenty-standard-application/constants/standard-command-menu-item.constant.ts
+msgctxt "commandMenuItem.label"
+msgid "Add View to List"
+msgstr ""
+
 #. js-lingui-id: EtSC0Y
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-company-standard-flat-field-metadata.util.ts
 msgctxt "fieldMetadata.label"
@@ -1520,10 +1539,10 @@ msgctxt "fieldMetadata.description"
 msgid "Audio-only recording"
 msgstr "Faqat audio yozuv"
 
-#. js-lingui-id: aepsXP
+#. js-lingui-id: 5bRlXP
 #: src/engine/core-modules/event-logs/event-logs.exception.ts
-msgid "Audit logs require an Enterprise subscription."
-msgstr "Audit jurnallari uchun Enterprise obunasi talab qilinadi."
+msgid "Audit logs require an Organization subscription."
+msgstr ""
 
 #. js-lingui-id: PKMDuT
 #: src/engine/core-modules/event-logs/event-logs.exception.ts
@@ -2293,16 +2312,6 @@ msgstr "Tizim obyektlarida ruxsatlarni qo‘shish mumkin emas."
 msgid "Cannot complete operation due to related records."
 msgstr "Bog‘liq yozuvlar tufayli operatsiyani yakunlab bo‘lmaydi."
 
-#. js-lingui-id: LIPsWu
-#: src/modules/workflow/common/workspace-services/workflow-version-query-validation.workspace-service.ts
-msgid "Cannot create multiple draft versions for the same workflow"
-msgstr "Bir xil ish jarayoni uchun bir nechta qoralama versiyalarini yaratib bo‘lmaydi"
-
-#. js-lingui-id: RggZr4
-#: src/modules/workflow/common/workspace-services/workflow-version-query-validation.workspace-service.ts
-msgid "Cannot create workflow version with status other than draft"
-msgstr "Ish jarayoni versiyasini qoralamadan boshqa holat bilan yaratib bo‘lmaydi"
-
 #. js-lingui-id: VPXcr5
 #: src/engine/core-modules/user/services/user.service.ts
 msgid "Cannot delete account: you are the only admin. Assign another admin or delete the workspace(s) first."
@@ -2364,7 +2373,6 @@ msgstr "O‘qish ruxsatisiz yozish ruxsatini berib bo‘lmaydi."
 
 #. js-lingui-id: IDMgr/
 #: src/engine/core-modules/workflow/services/core-workflow-lifecycle.workspace-service.ts
-#: src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
 msgid "Cannot have more than one active workflow version"
 msgstr "Bir vaqtning o‘zida bitta aktiv ish jarayoni versiyasidan ortiq bo‘lishi mumkin emas"
 
@@ -2472,6 +2480,11 @@ msgstr "Standart ko‘nikma xususiyatlarini yangilab bo‘lmaydi (faqat faollash
 msgctxt "fieldMetadata.label"
 msgid "Cc"
 msgstr "Cc"
+
+#. js-lingui-id: abq5Mk
+#: src/engine/core-modules/workspace/workspace.exception.ts
+msgid "Changing log retention requires an Organization subscription."
+msgstr ""
 
 #. js-lingui-id: +4WR+J
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-calendar-channel-event-association-standard-flat-field-metadata.util.ts
@@ -2636,6 +2649,12 @@ msgstr "Da’vo tokeni"
 #: src/engine/core-modules/application/application-registration/application-registration.exception.ts
 msgid "Claiming is not configured on this server. Ask an administrator to configure the GitHub OAuth app."
 msgstr "Bu serverda egalikni tasdiqlash sozlanmagan. Administratordan GitHub OAuth ilovasini sozlashni so‘rang."
+
+#. js-lingui-id: IOYrP8
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.label"
+msgid "Click rate"
+msgstr ""
 
 #. js-lingui-id: J7dFKa
 #: src/engine/core-modules/application/connection-provider/connection-provider.exception.ts
@@ -4621,6 +4640,11 @@ msgstr "Muvaffaqiyatsiz"
 msgctxt "fieldMetadata.label"
 msgid "Failed count"
 msgstr "Muvaffaqiyatsizlar soni"
+
+#. js-lingui-id: MIra1S
+#: src/modules/emailing/exceptions/message-list.exception.ts
+msgid "Failed to add people to the list."
+msgstr ""
 
 #. js-lingui-id: rl11Jd
 #: src/engine/metadata-modules/logic-function/logic-function.exception.ts
@@ -8456,6 +8480,18 @@ msgctxt "fieldMetadata.description"
 msgid "Number of recipients skipped without being emailed"
 msgstr "Xat yuborilmasdan o‘tkazib yuborilgan qabul qiluvchilar soni"
 
+#. js-lingui-id: /+A0NJ
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.description"
+msgid "Number of recipients who clicked a tracked link"
+msgstr ""
+
+#. js-lingui-id: La2Frx
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.description"
+msgid "Number of recipients who opened the email"
+msgstr ""
+
 #. js-lingui-id: bgG8mY
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
 msgctxt "fieldMetadata.description"
@@ -8720,11 +8756,6 @@ msgstr "Faqat maydon cheklovlariga ruxsat beriladi."
 msgid "Only one full-height widget is allowed per tab"
 msgstr "Har bir varaq uchun faqat bitta to‘liq balandlikdagi vidjetga ruxsat beriladi"
 
-#. js-lingui-id: xdu/vz
-#: src/engine/core-modules/workflow/services/core-workflow-mutation.workspace-service.ts
-msgid "Only one workflow version identifier may be provided"
-msgstr "Faqat bitta ish jarayoni versiyasi identifikatori berilishi mumkin"
-
 #. js-lingui-id: gJqtB1
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-agent-triggers-caller-application.util.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/utils/validate-agent-triggers-caller-application.util.ts
@@ -8740,6 +8771,12 @@ msgstr "Bu ish jarayonini kim ko‘rishini faqat uni yaratgan shaxs o‘zgartira
 #: src/engine/core-modules/workflow/resolvers/workflow-version-step.resolver.ts
 msgid "Only the values of this form can be changed."
 msgstr "Faqat ushbu shakldagi qiymatlarni o‘zgartirish mumkin."
+
+#. js-lingui-id: +ee5JG
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.label"
+msgid "Open rate"
+msgstr ""
 
 #. js-lingui-id: lWLaJ5
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workspace-member-standard-flat-field-metadata.util.ts
@@ -9234,6 +9271,11 @@ msgstr "Shaxslar"
 msgctxt "pageLayoutWidget.title"
 msgid "People"
 msgstr "Shaxslar"
+
+#. js-lingui-id: KoFgbR
+#: src/modules/emailing/exceptions/message-list.exception.ts
+msgid "People are already being added to this list. Please wait for it to finish."
+msgstr ""
 
 #. js-lingui-id: nAcEw6
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-list-standard-flat-field-metadata.util.ts
@@ -11028,6 +11070,18 @@ msgctxt "commandMenuItem.label"
 msgid "Share {objectLabelSingular}"
 msgstr "{objectLabelSingular}ni ulashish"
 
+#. js-lingui-id: Asm08U
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.description"
+msgid "Share of delivered recipients who clicked a tracked link"
+msgstr ""
+
+#. js-lingui-id: oXf7ic
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.description"
+msgid "Share of delivered recipients who opened the email, excluding Apple Mail privacy opens"
+msgstr ""
+
 #. js-lingui-id: FiE0YS
 #: src/engine/core-modules/tool-provider/constants/action-tool-label.constant.ts
 msgid "Share Record"
@@ -11454,11 +11508,6 @@ msgstr "Holat"
 msgctxt "fieldMetadata.label"
 msgid "Statuses"
 msgstr "Holatlar"
-
-#. js-lingui-id: S7DRR+
-#: src/modules/workflow/common/utils/assert-workflow-statuses-not-set.ts
-msgid "Statuses cannot be set manually."
-msgstr "Holatlarni qo‘lda o‘rnatib bo‘lmaydi."
 
 #. js-lingui-id: 9vB6Yo
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
@@ -12112,6 +12161,11 @@ msgstr "Ushbu Tashkilot kaliti uchun ishlab chiqish instansiyasi sloti boshqa se
 msgid "The domain does not match your email domain."
 msgstr "Domen sizning elektron pochta domeningizga mos kelmaydi."
 
+#. js-lingui-id: usKG5/
+#: src/engine/core-modules/tool/tools/email-tool/exceptions/email-tool.exception.ts
+msgid "The email content is invalid."
+msgstr ""
+
 #. js-lingui-id: hY1mx5
 #: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-workflow-run-standard-flat-field-metadata.util.ts
 msgctxt "fieldMetadata.description"
@@ -12205,7 +12259,6 @@ msgstr "Ushbu vaqt jadvali faoliyati turi foydalanadigan happensAt maydoni mavju
 
 #. js-lingui-id: EJUSll
 #: src/engine/core-modules/workflow/services/core-workflow-mutation.workspace-service.ts
-#: src/modules/workflow/common/workspace-services/workflow-version-query-validation.workspace-service.ts
 msgid "The initial version of a workflow can not be deleted"
 msgstr "Ish jarayonining boshlang‘ich versiyasini o‘chirib bo‘lmaydi"
 
@@ -12847,11 +12900,6 @@ msgstr "Ushbu funksiya yoqilmagan."
 #: src/engine/metadata-modules/field-metadata/field-metadata.exception.ts
 msgid "This field cannot be modified."
 msgstr "Ushbu maydonni o‘zgartirib bo‘lmaydi."
-
-#. js-lingui-id: dxfM0y
-#: src/modules/workflow/common/workspace-services/workflow-version-query-validation.workspace-service.ts
-msgid "This field cannot be updated directly on a workflow version"
-msgstr "Ushbu maydonni ish jarayonining versiyasida to‘g‘ridan-to‘g‘ri yangilab bo‘lmaydi"
 
 #. js-lingui-id: NDBu6g
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-row-level-permission-predicate-validator.service.ts
@@ -13574,6 +13622,11 @@ msgstr "Bajarish kerak"
 msgid "Too many admin candidates found."
 msgstr "Juda ko‘p administrator nomzodlari topildi."
 
+#. js-lingui-id: 0hbCNP
+#: src/modules/emailing/exceptions/message-list.exception.ts
+msgid "Too many people selected. Narrow your selection and try again."
+msgstr ""
+
 #. js-lingui-id: qSInGy
 #: src/engine/core-modules/tool/tools/email-tool/exceptions/email-tool.exception.ts
 msgid "Too many recipients."
@@ -13846,11 +13899,23 @@ msgstr "Ilova paketini olib bo‘lmadi."
 msgid "Unassign yourself before unsubscribing from this chat."
 msgstr "Ushbu chat obunasini bekor qilishdan oldin o‘zingizdan biriktirishni olib tashlang."
 
+#. js-lingui-id: ysWwLd
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.label"
+msgid "Unique clicks"
+msgstr ""
+
 #. js-lingui-id: WWSSTx
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-index-metadata-validator.service.ts
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-index-metadata-validator.service.ts
 msgid "Unique index cannot be created for field {fieldName} of type {fieldType}"
 msgstr "{fieldType} turidagi {fieldName} maydoni uchun noyob indeks yaratib bo‘lmaydi"
+
+#. js-lingui-id: 0B/dqH
+#: src/engine/workspace-manager/twenty-standard-application/utils/field-metadata/compute-message-campaign-standard-flat-field-metadata.util.ts
+msgctxt "fieldMetadata.label"
+msgid "Unique opens"
+msgstr ""
 
 #. js-lingui-id: lIud+S
 #: src/engine/metadata-modules/metadata-side-effect/utils/map-system-side-effect-collision-to-failure.util.ts
@@ -14308,6 +14373,11 @@ msgstr "Tekshirish qoidasi obyekti topilmadi"
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-validation-rule-validator.service.ts
 msgid "Validation rules cannot be added to system objects"
 msgstr "Tekshirish qoidalarini tizim obyektlariga qo‘shib bo‘lmaydi"
+
+#. js-lingui-id: HtS2Mw
+#: src/engine/metadata-modules/validation-rule/validation-rule.exception.ts
+msgid "Validation rules require the Organization plan."
+msgstr ""
 
 #. js-lingui-id: sFN4Dx
 #: src/engine/workspace-manager/workspace-migration/workspace-migration-builder/validators/services/flat-row-level-permission-predicate-validator.service.ts
@@ -15237,25 +15307,13 @@ msgstr "Ish jarayoni versiyasi allaqachon mavjud"
 #: src/engine/core-modules/workflow/services/core-workflow-lifecycle.workspace-service.ts
 #: src/engine/core-modules/workflow/services/core-workflow-version-write.service.ts
 #: src/engine/core-modules/workflow/services/core-workflow-version-write.service.ts
-#: src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
 msgid "Workflow version changed, please reload and retry"
 msgstr "Ish jarayoni versiyasi o‘zgardi, qayta yuklang va qayta urinib ko‘ring"
 
-#. js-lingui-id: n4/IOE
-#: src/modules/workflow/common/utils/assert-workflow-version-has-steps.ts
-msgid "Workflow version does not contain at least one step"
-msgstr "Ish jarayoni versiyasida kamida bitta bosqich yo‘q"
-
 #. js-lingui-id: k4DPlQ
-#: src/modules/workflow/common/utils/assert-workflow-version-trigger-is-defined.util.ts
 #: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
 msgid "Workflow version does not contain trigger"
 msgstr "Ish jarayoni versiyasida trigger yo‘q"
-
-#. js-lingui-id: NeW3NT
-#: src/engine/core-modules/workflow/services/core-workflow-mutation.workspace-service.ts
-msgid "Workflow version is missing from the request"
-msgstr "So‘rovda ish jarayoni versiyasi yo‘q"
 
 #. js-lingui-id: my+JB0
 #: src/engine/core-modules/workflow/services/core-workflow-version-write.service.ts
@@ -15264,7 +15322,6 @@ msgstr "Ish jarayoni versiyasi qoralama emas"
 
 #. js-lingui-id: Lg0DD+
 #: src/engine/core-modules/workflow/services/core-workflow-id-resolution.service.ts
-#: src/engine/core-modules/workflow/services/core-workflow-mutation.workspace-service.ts
 #: src/engine/core-modules/workflow/utils/assert-exactly-one-mirror-row-was-written.util.ts
 msgid "Workflow version is not correctly linked to its mirror"
 msgstr "Ish jarayoni versiyasi o‘z aks nusxasiga to‘g‘ri bog‘lanmagan"
@@ -15281,7 +15338,6 @@ msgstr "Ish jarayoni versiyasi to‘g‘ri bog‘lanmagan, keyinroq qayta urinib
 
 #. js-lingui-id: bqFL4g
 #: src/engine/core-modules/workflow/services/core-workflow-mutation.workspace-service.ts
-#: src/modules/workflow/common/utils/assert-workflow-version-is-draft.util.ts
 msgid "Workflow version is not in draft status"
 msgstr "Ish jarayoni versiyasi qoralama holatida emas"
 
@@ -15826,6 +15882,7 @@ msgstr "Sizda ushbu xabar jildiga kirish huquqi yo‘q."
 
 #. js-lingui-id: EFQeXU
 #: src/engine/core-modules/file/file-upload/guards/create-file-upload-permission.guard.ts
+#: src/engine/core-modules/workspace-invitation/workspace-invitation.resolver.ts
 #: src/engine/guards/settings-permission.guard.ts
 msgid "You do not have permission to access this feature. Please contact your workspace administrator for access."
 msgstr "Sizda ushbu funksiyaga kirish ruxsati yo‘q. Iltimos, ish maydoni administratoriga murojaat qiling."
